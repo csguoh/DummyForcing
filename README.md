@@ -1,5 +1,5 @@
 <div align="center">
-⚡️**Video Generation at 24FPS** ⚡️
+⚡️<b> Video Generation at 24FPS </b>⚡️
 <img src="assets/logo.jpg" style="border-radius: 15px">
 
 <img src="assets/teaser.jpg" style="border-radius: 15px">
@@ -32,7 +32,7 @@ Our Dummy Forcing can generate videos at **24.3FPS** speed, click to see the gen
 
 ### 5-second Short Video
 
-<details>
+<details open>
 <summary><b>click to expand</b></summary>
 <table>
 <tr>
@@ -111,7 +111,7 @@ Our Dummy Forcing can generate videos at **24.3FPS** speed, click to see the gen
 ### 30-second Long Video
 
 
-<details>
+<details open>
 <summary><b>click to expand</b></summary>
 <table>
 <tr>
