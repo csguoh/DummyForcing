@@ -160,11 +160,13 @@ Our Dummy Forcing can generate videos at **24.3FPS** speed, click to see the gen
 ## ✨ Highlights
 
 
-1️⃣ **Over 50% Heads in existing autoregressive video diffusion models are ''Dummy''** 
+1️⃣ **About 25% Heads in existing autoregressive video diffusion models are ''Dummy''** 
 
 <p align="center">
     <img src="assets/observation.jpg" style="border-radius: 15px">
 </p>
+
+
 2️⃣ **Training-Free Efficient Video Generation (480P/720P/1080P, up to 2.0x speedup)**
 
 <p align="center">
@@ -189,8 +191,9 @@ Our Dummy Forcing can generate videos at **24.3FPS** speed, click to see the gen
 
 ## <a name="news"></a> 🆕 News
 
-- **2026-01-xx:** arXiv paper available.
-- **2026-01-xx:** We have open sourced all our code.
+- **2026-01-28:** arXiv paper available.
+- **2026-01-29:** We have open sourced all our code.
+
 
 ## <a name="todo"></a> ☑️ TODO
 
