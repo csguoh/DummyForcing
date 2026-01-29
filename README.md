@@ -11,7 +11,7 @@ Efficient Autoregressive Video Diffusion with Dummy Head
 [Hang Guo](https://csguoh.github.io/), [Zhaoyang Jia](https://scholar.google.com/citations?user=ObkbCWkAAAAJ&hl=zh-CN), [Jiahao Li](https://scholar.google.com/citations?user=AcOcw0AAAAAJ&hl=zh-CN), [Bin Li](https://www.microsoft.com/en-us/research/people/libin/), [Yuanhao Cai](https://caiyuanhao1998.github.io/), [Jiangshan Wang](https://scholar.google.com/citations?user=HoKoCv0AAAAJ&hl=en), [Yawei Li](https://yaweili.bitbucket.io/), [Yan Lu](https://www.microsoft.com/en-us/research/people/yanlu/)
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=cshguo1.DummyForcing)
-[![arXiv](https://img.shields.io/badge/arXiv-2601.00000-b31b1b.svg)]()
+[![arXiv](https://img.shields.io/badge/arXiv-2601.20499-b31b1b.svg)](http://arxiv.org/abs/2601.20499)
 [![project](https://img.shields.io/badge/project-page-green)](https://csguoh.github.io/project/DummyForcing/)
 
 </div>
