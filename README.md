@@ -349,7 +349,12 @@ python inference.py --config_path configs/longlive_inference.yaml
 Please cite us if our work is useful for your research.
 
 ```
-
+@article{guo2026efficient,
+  title={Efficient Autoregressive Video Diffusion with Dummy Head},
+  author={Guo, Hang and Jia, Zhaoyang and Li, Jiahao and Li, Bin and Cai, Yuanhao and Wang, Jiangshan and Li, Yawei and Lu, Yan},
+  journal={arXiv preprint arXiv:2601.20499},
+  year={2026}
+}
 ```
 
 ## License
