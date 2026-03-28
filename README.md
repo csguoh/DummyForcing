@@ -193,6 +193,7 @@ Our Dummy Forcing can generate videos at **24.3FPS** speed, click to see the gen
 
 - **2026-01-28:** arXiv paper available.
 - **2026-01-29:** We have open sourced all our code.
+- **2026-03-28:** Support new model: [Causal-Forcing](https://github.com/thu-ml/Causal-Forcing)!
 
 
 ## <a name="todo"></a> ☑️ TODO
@@ -200,14 +201,14 @@ Our Dummy Forcing can generate videos at **24.3FPS** speed, click to see the gen
 - [x] arXiv version available 
 - [x] Release all code
 - [x] Support [TeaCache](https://github.com/ali-vilab/TeaCache) for more aggressive sppedup -> over **30FPS!**
-- [ ] Further improvement
+- [x] Support [Causal-Forcing](https://github.com/thu-ml/Causal-Forcing) for higher quality video generation!
 
 
 
 
 ## 💪Get Started
 
-**NOTE!** We have unified the [Self-Forcing](https://github.com/guandeh17/Self-Forcing) and [LongLive](https://github.com/NVlabs/LongLive) video generation pipelines into this single repository, so you can flexibly switch between models by changing the configuration file :D
+**NOTE!** We have unified the [Self-Forcing](https://github.com/guandeh17/Self-Forcing),  [LongLive](https://github.com/NVlabs/LongLive), and [Causal-Forcing](https://github.com/thu-ml/Causal-Forcing) video generation pipelines into this single repository, so you can flexibly switch between models by changing the configuration file :D
 
 ### Installation
 > NOTE: At least 40GB GPU memory is needed.
@@ -244,6 +245,14 @@ Example inference command with **LongLive** model:
 ```
 python inference.py --config_path configs/longlive_inference.yaml
 ```
+
+Example inference command with **Causal-Forcing** model:
+
+```
+python inference.py --config_path configs/causal_forcing_inference.yaml
+```
+
+
 > You can also modify the text prompts in the `./prompts/example_prompts.txt` for customization.
 
 The generated videos should be stored in the `./videos` file folder.
@@ -277,6 +286,10 @@ torchrun  --nproc_per_node=1 --master_port=39500  sample_vbench.py --config_path
 
 # for longlive model
 torchrun  --nproc_per_node=1 --master_port=29500  sample_vbench.py --config_path configs/longlive_vbench.yaml
+
+
+# for causal-forcing model
+torchrun  --nproc_per_node=1 --master_port=29500  sample_vbench.py --config_path configs/causal_forcing_vbench.yaml
 ```
 
 The above command will generate 5 videos per prompt, and all videos are saved in one folder for subsequent VBench eval. From my experience, the total time for VBench generation usually finish overnight!
@@ -359,11 +372,11 @@ Please cite us if our work is useful for your research.
 
 ## License
 
-Our code are under Apache-2.0 license. Users should also follow the license of the corresponding backbone models we use like [Self-Forcing (Apache-2.0 license)](https://github.com/guandeh17/Self-Forcing) and [LongLive (Apache-2.0 license)](https://github.com/NVlabs/LongLive). 
+Our code are under Apache-2.0 license. Users should also follow the license of the corresponding backbone models we use like [Self-Forcing (Apache-2.0 license)](https://github.com/guandeh17/Self-Forcing). [LongLive (Apache-2.0 license)](https://github.com/NVlabs/LongLive) and [Causal-Forcing(Apache-2.0 license)](https://github.com/thu-ml/Causal-Forcing). 
 
 
 
 
 ## Contact
 
-If you have any questions during your reproduce, feel free to approach me at cshguo@gmail.com
+If you have any questions during your reproduce, feel free to contact me at cshguo@gmail.com
